@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa; /* Soft background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 40px; /* Increased padding */
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Increased max-width */
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #00796b; /* Title color */
+    font-size: 24px;
+}
+
+.input-fields {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 10px; /* Added margin for space between input boxes */
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #004d40; /* Label color */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #00796b; /* Input border color */
+    border-radius: 5px;
+}
+
+button {
+    grid-column: span 2;
+    padding: 12px;
+    background-color: #00796b; /* Button background color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px; /* Margin to push the button down */
+}
+
+button:hover {
+    background-color: #004d40; /* Button hover color */
+}
+
+.output {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+.slider-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+.slider-value {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}

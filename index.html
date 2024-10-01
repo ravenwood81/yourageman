@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Age Calculator</h1>
+
+    <input type="number" id="targetYear" placeholder="Enter a target year" min="1900" max="2100">
+
+    <div id="inputs">
+        <div>
+            <input type="text" id="name1" placeholder="Name 1">
+            <input type="number" id="year1" placeholder="Year of birth 1" min="1900" max="2024">
+        </div>
+        <div>
+            <input type="text" id="name2" placeholder="Name 2">
+            <input type="number" id="year2" placeholder="Year of birth 2" min="1900" max="2024">
+        </div>
+        <div>
+            <input type="text" id="name3" placeholder="Name 3">
+            <input type="number" id="year3" placeholder="Year of birth 3" min="1900" max="2024">
+        </div>
+        <div>
+            <input type="text" id="name4" placeholder="Name 4">
+            <input type="number" id="year4" placeholder="Year of birth 4" min="1900" max="2024">
+        </div>
+    </div>
+
+    <button onclick="calculateAges()">Calculate Ages</button>
+
+    <div class="results" id="results"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
